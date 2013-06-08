@@ -10,7 +10,8 @@ class GameController extends BaseController {
             $gamestatus=1;
         }
 
-        $user = Auth::user()->id;
+        //$user = Auth::user()->id;
+        $user=1;
         $name = Input::get('answer');
         $right_answer = Input::get('right-answer');
 
