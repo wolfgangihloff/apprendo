@@ -16,7 +16,7 @@
 <p><img src="img/trend.png" width="25" height="25" /> Trending: <span id="suggest"></span>English pics game, Maths quiz</p> 
 
 <p>Interactive e-learning marketplace with analytics to track performance.</p>
-    <a href="#" class="btn2 blue" id="students">Students</a>
+    <a href="apps/" class="btn2 blue" id="students">Students</a>
     <a href="analytics/" class="btn2 red" id="teachers">Teachers</a>
   </div>
 </div><div class="container">

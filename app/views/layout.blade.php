@@ -24,11 +24,11 @@
       <a class="brand" href="home/"><img src="img/logo_long.png" width="200" height="35"/></a>
       <div class="nav-collapse">
         <ul class="nav ">
-          <li><a href="students/">Students</a></li>
+          <li><a href="apps/">Students</a></li>
           <li><a href="analytics/">Teachers</a></li>
-          <li><a href="help/">Share</a></li>
-          <li><a href="pricing/">Browse</a></li>
-          <li><a href="pricing/">Pricing</a></li>
+          <li><a href="#">Share</a></li>
+          <li><a href="apps/">Browse</a></li>
+          <li><a href="#">Pricing</a></li>
         </ul>
         <ul class="nav pull-right">
             @if(Auth::check())

@@ -23,7 +23,7 @@ class UsersTableSeeder extends Seeder {
         DB::table('users')->delete();
         User::create(array(
             'id' => 1,
-            'username' => 'firstuser',
+            'username' => 'Julia',
             'email' => 'test@test1.com',
             'name' => 'mayer',
             'password' => Hash::make('first_password'),
@@ -32,7 +32,7 @@ class UsersTableSeeder extends Seeder {
         ));
         User::create(array(
             'id' => 2,
-            'name' => 'mayer',
+            'name' => 'Vanessa',
             'username' => 'seconduser',
             'email' => 'test@test2.com',
             'password' => Hash::make('second_password'),
@@ -43,10 +43,19 @@ class UsersTableSeeder extends Seeder {
           'id' => 3,
           'name' => 'mayer',
           'username' => 'admin',
-          'email' => 'test@test3.com',
+          'email' => 'test@test4.com',
           'password' => Hash::make('password'),
           'created_at' => new DateTime,
           'updated_at' => new DateTime
+        ));
+        User::create(array(
+            'id' => 4,
+            'name' => 'Eve',
+            'username' => 'seconduser',
+            'email' => 'test@test5.com',
+            'password' => Hash::make('second_password'),
+            'created_at' => new DateTime,
+            'updated_at' => new DateTime
         ));
     }
 }
