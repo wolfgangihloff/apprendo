@@ -4,12 +4,13 @@
 
 <div class="container">
 	<div class="row">
-    	<div class="marketing">
+   	  <div class="marketing">
             <hgroup>
-                   <h1>Hello teacher!</h1>
-                   <h2>Your class performance</h2>
+                   <h1>Hello Guzman!</h1>
+                   <h2>This is your class performance for Group Year 7</h2>
             </hgroup>
-        </div>
+        	<a href="#"><i class="icon-user"></i>Add Student</a> <a href="#"> <i class="icon-th-list"></i>Create New Group </a>
+</div>
     	<div class="span6">
         	<div class="marketing">             
                 <canvas id="canvas" height="350" width="500"></canvas>
@@ -20,7 +21,7 @@
         		<canvas id="canvasBar" height="350" width="500"></canvas>
             </div>
         </div>
-     </div>
+</div>
      
      <div class="row">
      	<div class="span6">
@@ -95,8 +96,7 @@
                     Average no. of mistakes:
                     </div>
                     <div class="span3">
-                    58
-                    </div>
+                    58/100</div>
                  </div>
                  <div class="row">
                     <div class="span3">
@@ -277,10 +277,41 @@
                     </div>
                 </div>
           </div> 
+          
+			<hr>
 
-</div>
+			<div class="row-fluid">
+            	<div class="marketing">
+            		<h2>My Apps</h2>
 
-<hr>
+              <ul class="thumbnails example-sites">
+                <li class="span3">
+                  <a class="thumbnail" href="http://soundready.fm/" target="_blank">
+                  <img src="img/game1.png">
+                  </a>
+                <a href="#">Average score 80%</a></li>
+                <li class="span3">
+                  <a class="thumbnail" href="img/game2.png" target="_blank">
+                  <img src="img/game2.png">
+                  </a>
+                <a href="#">Average score 60%</a></li>
+                <li class="span3">
+                  <a class="thumbnail" href="http://www.gathercontent.com/" target="_blank">
+                  <img src="img/game3.png">
+                  </a>
+                  <a href="#">Average score 90%</a>
+                </li>
+                <li class="span3">
+                  <a class="thumbnail" href="http://www.jshint.com/" target="_blank">
+                  <img src="img/game4.png">
+                  </a>
+                  <a href="#">Average score 100%</a>
+                </li>
+              </ul>
+             </div>
+     </div>
+
+
 
 <br/>
 <br/>
