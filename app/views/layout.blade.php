@@ -8,6 +8,8 @@
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />	
     <link href="bootstrap/css/styles.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-2.0.2.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="bootstrap/js/chart.js"></script>
 
 
@@ -42,6 +44,19 @@
     </div><!-- /.container -->
   </div><!-- /.navbar-inner -->
 </div><!-- /.navbar -->
+
+
+<!-- check for  error flash var -->
+@if (Session::has('flash_error'))
+<div class="container">
+<div class="row">
+    <div class="span12">
+        <div class="alert"class="alert-error" data-dismiss="alert" >{{ Session::get('flash_error') }}<span class="close" data-dismiss="alert">&times;</span></div>
+
+    </div>
+</div>
+</div>
+@endif
 
 @yield('content')
 

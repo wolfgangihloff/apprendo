@@ -21,6 +21,11 @@ Route::get('home', array('as' => 'home', function()
     return View::make('home');
 }));
 
+Route::get('howitworks', array('as' => 'howitworks', function()
+{
+    return View::make('howitworks');
+}));
+
 Route::get('apps', function()
 {
     return View::make('apps');
@@ -58,7 +63,7 @@ Route::post('login', function () {
         return Redirect::route('home')
             ->with('flash_notice', 'You are successfully logged in.');
     }
-    Auth::loginUsingId(1, true);
+    // Auth::loginUsingId(1, true);
     // authentication failure! lets go back to the login page
     return Redirect::route('login')
         ->with('flash_error', 'Your username/password combination was incorrect.')
