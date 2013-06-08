@@ -19,7 +19,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </a>
-      <a class="brand" href="home/"><img src="img/logo_long_web.png" /></a>
+      <a class="brand" href="home/"><img src="img/logo_long_web.png" width="215" height="40"/></a>
       <div class="nav-collapse">
         <ul class="nav ">
           <li><a href="home/"> Home</a></li>

@@ -5,7 +5,7 @@
 <!-- Hero Unit -->
 <div class="hero-unit">
   <div class="container" align="center">
-    <h2 style="color:#595959">Apprendo.</h2>
+    <h2 style="color:#595959"><img src="img/logo_web.png" width="160" height="100" /></h2>
     <h4><p>E-learning contents marketplace with analytics</p></h4>
       <form class="form-search">
   <div class="input-append">
