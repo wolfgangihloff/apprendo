@@ -17,7 +17,7 @@
 
 <p>Interactive e-learning marketplace with analytics to track performance.</p>
     <a href="#" class="btn2 blue" id="students">Students</a>
-    <a href="#" class="btn2 red" id="teachers">Teachers</a>
+    <a href="analytics/" class="btn2 red" id="teachers">Teachers</a>
   </div>
 </div><div class="container">
         <div class="marketing">
@@ -71,23 +71,23 @@
       <ul class="thumbnails example-sites">
         <li class="span3">
           <a class="thumbnail" href="http://soundready.fm/" target="_blank">
-          <img src="http://twitter.github.io/bootstrap/assets/img/example-sites/soundready.png" alt="SoundReady.fm">
+          <img src="img/game1.png">
           </a>
         <a href="#">Whatever game</a></li>
         <li class="span3">
-          <a class="thumbnail" href="http://kippt.com/" target="_blank">
-          <img src="http://twitter.github.io/bootstrap/assets/img/example-sites/kippt.png" alt="Kippt">
+          <a class="thumbnail" href="img/game2.png" target="_blank">
+          <img src="img/game2.png">
           </a>
         <a href="#">Whatever quiz</a></li>
         <li class="span3">
           <a class="thumbnail" href="http://www.gathercontent.com/" target="_blank">
-          <img src="http://twitter.github.io/bootstrap/assets/img/example-sites/gathercontent.png" alt="Gather Content">
+          <img src="img/game3.png">
           </a>
           <a href="#">Whatever game</a>
         </li>
         <li class="span3">
           <a class="thumbnail" href="http://www.jshint.com/" target="_blank">
-          <img src="http://twitter.github.io/bootstrap/assets/img/example-sites/jshint.png" alt="JS Hint">
+          <img src="img/game4.png">
           </a>
           <a href="#">Whatever game</a>
         </li>
@@ -97,46 +97,22 @@
       <ul class="thumbnails example-sites">
         <li class="span3">
           <a class="thumbnail" href="http://soundready.fm/" target="_blank">
-          <img src="http://twitter.github.io/bootstrap/assets/img/example-sites/soundready.png" alt="SoundReady.fm">
+          <img src="img/game5.png">
           </a>
         contact</li>
         <li class="span3">
           <a class="thumbnail" href="http://kippt.com/" target="_blank">
-          <img src="http://twitter.github.io/bootstrap/assets/img/example-sites/kippt.png" alt="Kippt">
+          <img src="img/game6.png">
           </a>
         </li>
         <li class="span3">
           <a class="thumbnail" href="http://www.gathercontent.com/" target="_blank">
-          <img src="http://twitter.github.io/bootstrap/assets/img/example-sites/gathercontent.png" alt="Gather Content">
+          <img src="img/game7.png">
           </a>
         </li>
         <li class="span3">
           <a class="thumbnail" href="http://www.jshint.com/" target="_blank">
-          <img src="http://twitter.github.io/bootstrap/assets/img/example-sites/jshint.png" alt="JS Hint">
-          </a>
-        </li>
-      </ul>
-     </div>
-     <div class="row-fluid">
-      <ul class="thumbnails example-sites">
-        <li class="span3">
-          <a class="thumbnail" href="http://soundready.fm/" target="_blank">
-          <img src="http://twitter.github.io/bootstrap/assets/img/example-sites/soundready.png" alt="SoundReady.fm">
-          </a>
-        contact</li>
-        <li class="span3">
-          <a class="thumbnail" href="http://kippt.com/" target="_blank">
-          <img src="http://twitter.github.io/bootstrap/assets/img/example-sites/kippt.png" alt="Kippt">
-          </a>
-        </li>
-        <li class="span3">
-          <a class="thumbnail" href="http://www.gathercontent.com/" target="_blank">
-          <img src="http://twitter.github.io/bootstrap/assets/img/example-sites/gathercontent.png" alt="Gather Content">
-          </a>
-        </li>
-        <li class="span3">
-          <a class="thumbnail" href="http://www.jshint.com/" target="_blank">
-          <img src="http://twitter.github.io/bootstrap/assets/img/example-sites/jshint.png" alt="JS Hint">
+          <img src="img/game8.png">
           </a>
         </li>
       </ul>

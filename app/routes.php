@@ -26,6 +26,11 @@ Route::get('apps', function()
     return View::make('apps');
 });
 
+Route::get('analytics', function()
+{
+    return View::make('analytics');
+});
+
 Route::get('games', 'GameController@action_games');
 Route::post('games', 'GameController@action_games');
 
