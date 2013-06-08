@@ -17,6 +17,7 @@ Route::get('/', function()
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Route::get('apps', function()
 {
     return View::make('apps');
@@ -34,3 +35,6 @@ Route::get('users', function()
 =======
 Route::get('users', 'UserController@getIndex');
 >>>>>>> Revert "added new page"
+=======
+Route::get('users', 'UserController@getIndex');
+>>>>>>> a8615847aab3dc893b333b2cc7b200bd2c7cdd8f

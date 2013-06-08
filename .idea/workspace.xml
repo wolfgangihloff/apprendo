@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cbc735eb-ba8c-40fd-843e-1431498d5d0b" name="Default" comment="">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/AppsAutoController.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/apps_auto_quiz.blade.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users.blade.php" />
@@ -16,10 +17,15 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
 >>>>>>> Revert "added new page"
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
+>>>>>>> a8615847aab3dc893b333b2cc7b200bd2c7cdd8f
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="laravel.iws" />
     <ignored path=".idea/workspace.xml" />
+<<<<<<< HEAD
 <<<<<<< HEAD
     <file path="/Dummy.txt" changelist="cbc735eb-ba8c-40fd-843e-1431498d5d0b" time="1370658569235" ignored="false" />
     <file path="/home.php" changelist="eac76457-6b1a-4d32-ac48-645557dfb04f" time="1370658539794" ignored="false" />
@@ -34,6 +40,11 @@
     <file path="/home.php" changelist="cbc735eb-ba8c-40fd-843e-1431498d5d0b" time="1370653112767" ignored="false" />
     <file path="/.gitignore" changelist="cbc735eb-ba8c-40fd-843e-1431498d5d0b" time="1370654132780" ignored="false" />
 >>>>>>> Revert "added new page"
+=======
+    <file path="/Dummy.txt" changelist="cbc735eb-ba8c-40fd-843e-1431498d5d0b" time="1370653993209" ignored="false" />
+    <file path="/home.php" changelist="cbc735eb-ba8c-40fd-843e-1431498d5d0b" time="1370653112767" ignored="false" />
+    <file path="/.gitignore" changelist="cbc735eb-ba8c-40fd-843e-1431498d5d0b" time="1370654132780" ignored="false" />
+>>>>>>> a8615847aab3dc893b333b2cc7b200bd2c7cdd8f
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,15 +68,20 @@
         <entry file="file://$PROJECT_DIR$/app/views/users.blade.php">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state line="4" column="5" selection-start="52" selection-end="52" vertical-scroll-proportion="-2.5">
 =======
             <state line="18" column="47" selection-start="503" selection-end="503" vertical-scroll-proportion="-5.625">
 >>>>>>> Revert "added new page"
+=======
+            <state line="18" column="47" selection-start="503" selection-end="503" vertical-scroll-proportion="-5.625">
+>>>>>>> a8615847aab3dc893b333b2cc7b200bd2c7cdd8f
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <file leaf-file-name="database.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/config/database.php">
@@ -144,11 +160,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="9" column="21" selection-start="260" selection-end="260" vertical-scroll-proportion="-5.625">
 =======
+=======
+>>>>>>> a8615847aab3dc893b333b2cc7b200bd2c7cdd8f
       <file leaf-file-name=".htaccess" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
             <state line="1" column="26" selection-start="43" selection-end="43" vertical-scroll-proportion="0.032051284">
+<<<<<<< HEAD
 >>>>>>> Revert "added new page"
+=======
+>>>>>>> a8615847aab3dc893b333b2cc7b200bd2c7cdd8f
               <folding />
             </state>
           </provider>
@@ -176,6 +197,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.htaccess" />
 <<<<<<< HEAD
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/app/controllers/AppsController.php" />
         <option value="$PROJECT_DIR$/app/views/apps.php" />
         <option value="$PROJECT_DIR$/app/views/layout.blade.php" />
@@ -188,6 +210,8 @@
         <option value="$PROJECT_DIR$/app/config/database.php" />
 =======
 >>>>>>> Revert "added new page"
+=======
+>>>>>>> a8615847aab3dc893b333b2cc7b200bd2c7cdd8f
       </list>
     </option>
   </component>
@@ -399,6 +423,7 @@
       <updated>1370653995309</updated>
     </task>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <task id="LOCAL-00004" summary="#1 update htaccess">
       <created>1370655655849</created>
       <updated>1370655655849</updated>
@@ -411,6 +436,9 @@
 =======
     <option name="localTasksCounter" value="4" />
 >>>>>>> Revert "added new page"
+=======
+    <option name="localTasksCounter" value="4" />
+>>>>>>> a8615847aab3dc893b333b2cc7b200bd2c7cdd8f
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -542,6 +570,7 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/views/layout.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="12" selection-start="917" selection-end="917" vertical-scroll-proportion="-28.75">
@@ -557,10 +586,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="5" selection-start="550" selection-end="550" vertical-scroll-proportion="-11.25">
 >>>>>>> Revert "added new page"
+=======
+    <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="5" selection-start="550" selection-end="550" vertical-scroll-proportion="-11.25">
+>>>>>>> a8615847aab3dc893b333b2cc7b200bd2c7cdd8f
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/views/apps_auto_quiz.blade.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -570,6 +605,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="35" selection-start="944" selection-end="944" vertical-scroll-proportion="1.5878378">
 >>>>>>> Revert "added new page"
+=======
+    <entry file="file://$PROJECT_DIR$/app/views/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="35" selection-start="944" selection-end="944" vertical-scroll-proportion="1.5878378">
+>>>>>>> a8615847aab3dc893b333b2cc7b200bd2c7cdd8f
           <folding />
         </state>
       </provider>
@@ -581,6 +621,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/controllers/AppsAutoController.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -604,10 +645,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="47" selection-start="503" selection-end="503" vertical-scroll-proportion="-5.625">
 >>>>>>> Revert "added new page"
+=======
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="47" selection-start="503" selection-end="503" vertical-scroll-proportion="-5.625">
+>>>>>>> a8615847aab3dc893b333b2cc7b200bd2c7cdd8f
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -624,10 +671,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="19" selection-start="89" selection-end="89" vertical-scroll-proportion="0.16025642">
 >>>>>>> Revert "added new page"
+=======
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="19" selection-start="89" selection-end="89" vertical-scroll-proportion="0.16025642">
+>>>>>>> a8615847aab3dc893b333b2cc7b200bd2c7cdd8f
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -637,6 +690,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="26" selection-start="43" selection-end="43" vertical-scroll-proportion="0.032051284">
 >>>>>>> Revert "added new page"
+=======
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="26" selection-start="43" selection-end="43" vertical-scroll-proportion="0.032051284">
+>>>>>>> a8615847aab3dc893b333b2cc7b200bd2c7cdd8f
           <folding />
         </state>
       </provider>
