@@ -16,8 +16,8 @@
 <p><img src="img/trend.png" width="25" height="25" /> Trending: <span id="suggest"></span>English pics game, Maths quiz</p> 
 
 <p>Interactive e-learning marketplace with analytics to track performance.</p>
-    <a href="#" class="btn btn-large btn-success">Students</a>
-    <a href="../howitworks.php" class="btn btn-large btn-warning">Teachers</a>
+    <a href="#" class="btn btn-large btn-success"><i class="icon-user icon-white"></i> Students</a>
+    <a href="../howitworks.php" class="btn btn-large btn-warning"><i class="icon-eye-open icon-white"></i> Teachers</a>
   </div>
 </div><div class="container">
         <div class="marketing">
@@ -65,7 +65,7 @@
 
 
 <h1>Featured Apps</h1>
-    <p class="marketing-byline">Wanna share your quiz, test, games??, <a href="http://builtwithbootstrap.tumblr.com/" target="_blank">Share your stuff here</a> or <a href="./getting-started.html#examples">browse what others have shared</a></p>
+    <p class="marketing-byline">Wanna share your quiz, test, games? <a href="http://builtwithbootstrap.tumblr.com/" target="_blank">Share your stuff here</a> or <a href="./getting-started.html#examples">browse what others have shared</a></p>
     
 	<div class="row-fluid">
       <ul class="thumbnails example-sites">
@@ -144,6 +144,8 @@
 
   </div>
 </div>
+<br />
+<br />
 <!-- End Hero Unit -->
 
 <!-- Modal -->
