@@ -73,7 +73,7 @@
           <a class="thumbnail" href="http://soundready.fm/" target="_blank">
           <img src="img/game1.png">
           </a>
-        <a href="#">Whatever game</a></li>
+        <a href="#">Whatever game uploaded by user1</a></li>
         <li class="span3">
           <a class="thumbnail" href="img/game2.png" target="_blank">
           <img src="img/game2.png">

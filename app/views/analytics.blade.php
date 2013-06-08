@@ -2,11 +2,44 @@
 
 @section('content')
 
-<canvas id="canvas" height="450" width="600"></canvas>
+<div class="container">
+	<div class="row">
+    	<div class="marketing">
+            <hgroup>
+                   <h1>Hello teacher!</h1>
+                   <h2>Your class performance</h2>
+            </hgroup>
+        </div>
+    	<div class="span6">
+        	<div class="marketing">             
+                <canvas id="canvas" height="350" width="500"></canvas>
+            </div>
+        </div>
+        <div class="span6">
+        	<div class="marketing">
+        		<canvas id="canvasBar" height="350" width="500"></canvas>
+            </div>
+        </div>
+     </div>
+     
+     <div class="row">
+     	<div class="span6">
+            <div class="marketing">
+                    <h2>Praise these students</h2>
+            </div>
+       	</div>
+        <div class="span6">
+            <div class="marketing">
+                    <h2>Tutor these students</h2>
+            </div>
+        </div>
+     
+     </div>
+</div>
 
 <script>
 
-		var barChartData = {
+		var lineChartData = {
 			labels : ["January","February","March","April","May","June","July"],
 			datasets : [
 				{
@@ -23,7 +56,8 @@
 
 		}
 
-	var myLine = new Chart(document.getElementById("canvas").getContext("2d")).Bar(barChartData);
+	var myLine = new Chart(document.getElementById("canvas").getContext("2d")).Line(lineChartData);
+	var myBar = new Chart(document.getElementById("canvasBar").getContext("2d")).Bar(lineChartData);
 
 </script>
 

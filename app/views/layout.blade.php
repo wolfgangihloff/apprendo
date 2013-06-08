@@ -10,6 +10,7 @@
     <link href="bootstrap/css/styles.css" rel="stylesheet" type="text/css" />
     <script src="bootstrap/js/chart.js"></script>
 
+
 </head>
 <body>
 <div class="navbar transparent navbar-fixed-top">
@@ -24,8 +25,9 @@
       <div class="nav-collapse">
         <ul class="nav ">
           <li><a href="students/">Students</a></li>
-          <li><a href="teachers/">Teachers</a></li>
-          <li><a href="help/">Share your stuff</a></li>
+          <li><a href="analytics/">Teachers</a></li>
+          <li><a href="help/">Share</a></li>
+          <li><a href="pricing/">Browse</a></li>
           <li><a href="pricing/">Pricing</a></li>
         </ul>
         <ul class="nav pull-right">
