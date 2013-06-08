@@ -72,25 +72,23 @@
                 </div>
            	</div>
             <div class="row-fluid" align="center">
-                <div class="span12">
+              <div class="span12">
                   <h2>Are you a developer?</h2> 
                 
-                   <p>
+                <p>
                     Develop your web-based interactive content and publish it through Apprendo, make it free or earn money by making it premium.
-                   </p>
-                   <p>
+                 </p>
+                 <p>
                    Sign up for our developer program by entering your e-mail:
-                   </p>
-                  </div>
+                 </p>
+
+                     <label for="textfield"></label>
+                     <input type="text" name="email" id="email" />
+                     <a href="#">Submit </a>
+                </div>
               </div>
             </div>
-            
-              
-        <br />
-        <p align="center">For detailed info <a href="howitworks/">click here.</a></p>
-
 <hr class="soften">
-
 
 <h1>Featured Apps</h1>
     <p class="marketing-byline">Wanna share your quiz, test, games with other teachers? <a href="http://builtwithbootstrap.tumblr.com/" target="_blank">Share your stuff here</a> or <a href="./getting-started.html#examples">browse what others have shared</a></p>
