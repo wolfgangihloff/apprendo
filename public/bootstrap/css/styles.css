@@ -1,3 +1,19 @@
+#students {
+  font-size: 20px;
+  font-weight: 100;
+  color:#FFF;
+}
+
+#students:hover {text-decoration:none}
+
+#teachers {
+  font-size: 20px;
+  font-weight: 100;
+  color:#FFF;
+}
+
+#teachers:hover {text-decoration:none}
+
 #midcontainer2 {
   padding: 10px;
   margin-bottom: 30px;
@@ -155,9 +171,9 @@ p {
   font-size: 18px;
   color: #767c8d;
 }
-.btn {
+.btn2 {
   display: inline-block;
-  padding: 20px;
+  padding: 10px;
   font-family: "proxima-nova", sans-serif;
   font-weight: 600;
   color: #fff;
@@ -181,21 +197,22 @@ p {
   transition-duration: 200ms;
   transition-timing-function: ease-in-out;
 }
-.btn:active {
+.btn2:active {
   box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.25);
 }
-.btn.red {
+.btn2.red {
   background-color: #f33e6f;
 }
-.btn.red:hover {
+.btn2.red:hover {
   background-color: #f2265d;
 }
-.btn.blue {
+.btn2.blue {
   background-color: #2d91ea;
 }
-.btn.blue:hover {
+.btn2.blue:hover {
   background-color: #1785e6;
 }
+
 header {
   width: 978px;
   margin: 20px auto;
@@ -211,7 +228,7 @@ header #introChart {
   top: 60px;
   right: 0;
 }
-header .btn {
+header .btn2 {
   margin-right: 10px;
   width: 180px;
 }
