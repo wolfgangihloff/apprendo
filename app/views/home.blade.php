@@ -1,52 +1,9 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Apprendo</title>
-    <style>
-        @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@extends('layout')
 
-        body {
-            margin:0;
-            font-family:'Lato', sans-serif;
-            text-align:center;
-            color: #999;
-        }
+@section('content')
+<div>
+    <h1>Apprendo. All you want.</h1>
+    <a href="apps/">apps</a>
 
-        .welcome {
-           width: 300px;
-           height: 300px;
-           position: absolute;
-           left: 50%;
-           top: 50%; 
-           margin-left: -150px;
-           margin-top: -150px;
-        }
-
-        a, a:visited {
-            color:#FF5949;
-            text-decoration:none;
-        }
-
-        a:hover {
-            text-decoration:underline;
-        }
-
-        ul li {
-            display:inline;
-            margin:0 1.2em;
-        }
-
-        p {
-            margin:2em 0;
-            color:#555;
-        }
-    </style>
-</head>
-<body>
-    <div>
-        <h1>Apprendo. All you want.</h1>
-    </div>
-<a href="apps/">apps</a>
-</body>
-</html>
+</div>
+@stop

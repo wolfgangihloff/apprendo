@@ -20,3 +20,13 @@ Route::get('apps', function()
 {
     return View::make('apps');
 });
+
+Route::get('apps_auto_quiz', function()
+{
+    return View::make('apps_auto_quiz');
+});
+
+Route::get('users', function()
+{
+    return View::make('users');
+});
