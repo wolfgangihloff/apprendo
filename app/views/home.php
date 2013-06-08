@@ -5,6 +5,7 @@
     <h1>Apprendo. All you want.</h1>
     <a href="apps/">apps</a>
 
+<<<<<<< HEAD
 <<<<<<< HEAD:app/views/home.blade.php
 </div>
 @stop
@@ -46,3 +47,7 @@
 </body>
 </html>
 >>>>>>> a8615847aab3dc893b333b2cc7b200bd2c7cdd8f:app/views/home.php
+=======
+</div>
+@stop
+>>>>>>> 5f3fe3d51f1c9dad43d739a2fee09b543e15cb29

@@ -18,6 +18,9 @@ Route::get('/', function()
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5f3fe3d51f1c9dad43d739a2fee09b543e15cb29
 Route::get('apps', function()
 {
     return View::make('apps');
@@ -31,6 +34,7 @@ Route::get('apps_auto_quiz', function()
 Route::get('users', function()
 {
     return View::make('users');
+<<<<<<< HEAD
 });
 =======
 Route::get('users', 'UserController@getIndex');
@@ -38,3 +42,6 @@ Route::get('users', 'UserController@getIndex');
 =======
 Route::get('users', 'UserController@getIndex');
 >>>>>>> a8615847aab3dc893b333b2cc7b200bd2c7cdd8f
+=======
+});
+>>>>>>> 5f3fe3d51f1c9dad43d739a2fee09b543e15cb29
