@@ -16,7 +16,7 @@
 
 <p><img src="img/trend.png" width="25" height="25" /> Trending: <a href="apps/">Animal quiz game</a>, <a href="apps/">Spelling bee</a>, <a href="apps/">Get to know the world</a></p> 
 
-<p>Interactive e-learning marketplace with analytics tools to track performance.</p>
+<p>An open platform for distributing interactive e-learning contents</p>
     <a href="apps/" class="btn2 blue" id="students">Students</a>
     <a href="analytics/" class="btn2 red" id="teachers">Teachers</a>
   </div>

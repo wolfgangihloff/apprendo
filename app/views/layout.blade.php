@@ -80,7 +80,7 @@
           <li class="muted">&middot;</li>
           <li><a href="#">Contact Us</a></li>
           <li class="muted">&middot;</li>
-          <li><a href="#"><img src="img/fb2.png" width="32" height="32" /></a> <a href="#"> <img src="img/twitter2.png" width="32" height="32" /></a></li>
+          <li><a href="http://www.angelhack.co.kr"><img src="img/fb2.png" width="32" height="32" /></a> <a href="#"> <img src="img/twitter2.png" width="32" height="32" /></a></li>
         </ul>
       </div>
 </footer>
