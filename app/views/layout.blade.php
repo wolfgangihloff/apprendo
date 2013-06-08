@@ -8,6 +8,7 @@
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />	
     <link href="bootstrap/css/styles.css" rel="stylesheet" type="text/css" />
+    <script src="bootstrap/js/chart.js"></script>
 
 
 </head>
@@ -59,7 +60,6 @@
 
 <script src="js/jquery-2.0.2.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
-<script src="bootstrap/js/chart.js"></script>
 
 <!--<script src="bootstrap/js/bootstrap.js"></script>
 <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
