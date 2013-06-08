@@ -1,6 +1,13 @@
 {
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/joecwallace/web-artisan"
+        }
+    ],
 	"require": {
-		"laravel/framework": "4.0.*"
+		"laravel/framework": "4.0.*",
+        "joecwallace/artisan": "dev-master"
 	},
 	"autoload": {
 		"classmap": [

@@ -31,6 +31,12 @@ Route::get('apps', function()
     return View::make('apps');
 });
 
+
+Route::get('create', function()
+{
+    return View::make('create');
+});
+
 Route::get('analytics', function()
 {
     return View::make('analytics');
