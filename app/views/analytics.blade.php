@@ -6,7 +6,12 @@
 	<div class="row">
    	  <div class="marketing">
             <hgroup>
-                   <h1>{{ Auth::user()->username}}</h1>
+                @if( Auth::guest() )
+                <h1>Guzman</h1>
+                @else
+                <h1>{{ Auth::user()->username }}</h1>
+                @endif
+
                    <h2>This is your class performance for Group Year 7</h2>
             </hgroup>
         	<a href="#"><i class="icon-user"></i>Add Student</a> <a href="#"> <i class="icon-th-list"></i>Create New Group </a>
