@@ -7,7 +7,7 @@
   <div class="container" align="center">
     <h2 style="color:#595959"><img src="img/logo_web.png" width="160" height="100" /></h2>
     <h4>
-      <p>Web-based "appstore" for interactive e-learning contents </p></h4>
+      <p>"Appstore" for interactive e-learning contents </p></h4>
       <form class="form-search">
   <div class="input-append">
     <input type="text" id="input"  class="span8" placeholder="e.g. Mathematics games, Physics quiz, Biology, Chemistry" style="background: #fff; border: 3px solid #00B300; height:40px; font-size:25px" autocomplete="off">
