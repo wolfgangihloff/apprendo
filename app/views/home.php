@@ -45,8 +45,7 @@
 </head>
 <body>
     <div>
-        <h1>Apprendo. All you want.</h1>
+        <h1>Apprendo. All you want. Hello</h1>
     </div>
-<a href="apps/">apps</a>
 </body>
 </html>
