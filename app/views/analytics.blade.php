@@ -83,22 +83,6 @@
                  
             </div>
         </div>
-        
-        
-        <!--
-        <div class="row">
-        	<div class="marketing">
-                <div class="span6">
-                    Average no. of mistakes: 58
-                    <br/>
-                    Average completion time: 58 minutes
-                </div>
-                <div class="span6">
-                    Most common mistakes: lion, pig, shark, toad
-                </div>
-             </div>
-        </div>
-     -->
      </div>
      
      <hr>
@@ -136,13 +120,167 @@
                  
             </div>
         </div>
+      </div>
+      
+      <hr>
+      
+      <div class="row">
+      	<div class="marketing">
+                <h2>My students</h2>
+                <div class="span4">
+                    <strong>Name</strong>
+                </div>
+                <div class="span2">
+                    <strong>Last Score</strong>
+                </div>
+                <div class="span2">
+                    <strong>Previous Score</strong>
+                </div>
+                <div class="span2">
+                    <strong>Change</strong>
+                </div>
+                <div class="span2">
+                    <strong>Evolution</strong>
+                </div>
+            </div>
+    	</div> 
+        <div class="row">
+            	<div class="marketing">
+                    <div class="span4">
+                        Luis
+                    </div>
+                    <div class="span2">
+                        88
+                    </div>
+                    <div class="span2">
+                        85
+                    </div>
+                    <div class="span2">
+                        10%
+                    </div>
+                    <div class="span2">
+                        Click
+                    </div>
+                </div>
+          </div> 
+        <div class="row">
+            	<div class="marketing">
+                    <div class="span4">
+                        Luis
+                    </div>
+                    <div class="span2">
+                        88
+                    </div>
+                    <div class="span2">
+                        85
+                    </div>
+                    <div class="span2">
+                        10%
+                    </div>
+                    <div class="span2">
+                        Click
+                    </div>
+                </div>
+          </div> 
+          <div class="row">
+            	<div class="marketing">
+                    <div class="span4">
+                        Luis
+                    </div>
+                    <div class="span2">
+                        88
+                    </div>
+                    <div class="span2">
+                        85
+                    </div>
+                    <div class="span2">
+                        10%
+                    </div>
+                    <div class="span2">
+                        Click
+                    </div>
+                </div>
+          </div> 
+          <div class="row">
+            	<div class="marketing">
+                    <div class="span4">
+                        Luis
+                    </div>
+                    <div class="span2">
+                        88
+                    </div>
+                    <div class="span2">
+                        85
+                    </div>
+                    <div class="span2">
+                        10%
+                    </div>
+                    <div class="span2">
+                        Click
+                    </div>
+                </div>
+          </div> 
+          <div class="row">
+            	<div class="marketing">
+                    <div class="span4">
+                        Luis
+                    </div>
+                    <div class="span2">
+                        88
+                    </div>
+                    <div class="span2">
+                        85
+                    </div>
+                    <div class="span2">
+                        10%
+                    </div>
+                    <div class="span2">
+                        Click
+                    </div>
+                </div>
+          </div> 
+          <div class="row">
+            	<div class="marketing">
+                    <div class="span4">
+                        Luis
+                    </div>
+                    <div class="span2">
+                        88
+                    </div>
+                    <div class="span2">
+                        85
+                    </div>
+                    <div class="span2">
+                        10%
+                    </div>
+                    <div class="span2">
+                        Click
+                    </div>
+                </div>
+          </div> 
+          <div class="row">
+            	<div class="marketing">
+                    <div class="span4">
+                        Luis
+                    </div>
+                    <div class="span2">
+                        88
+                    </div>
+                    <div class="span2">
+                        85
+                    </div>
+                    <div class="span2">
+                        10%
+                    </div>
+                    <div class="span2">
+                        Click
+                    </div>
+                </div>
+          </div> 
+
 </div>
 
 <hr>
-
-<div class="row">
-
-</div>
 
 <br/>
 <br/>
