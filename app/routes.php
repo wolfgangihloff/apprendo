@@ -16,4 +16,7 @@ Route::get('/', function()
 	return View::make('home');
 });
 
-Route::get('users', 'UserController@getIndex');
+Route::get('apps', function()
+{
+    return View::make('apps');
+});
