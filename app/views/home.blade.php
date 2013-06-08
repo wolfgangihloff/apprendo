@@ -21,8 +21,14 @@
   </div>
 </div><div class="container">
         <div class="marketing">
-            <h1>Introducing Apprendo for teachers</h1>
+            <h1>Learn by doing. Track their progress.</h1>
             <p class="marketing-byline">This is basically how it works in 3 simple steps.</p>
+            <div class="row-fluid" align="center">
+            	<div class="span12">
+                	<img src="img/homepage-product-screenshot.png" />
+                </div>
+            </div>
+            <!--
           <div class="row-fluid" align="center">
             <div class="span4">
               <img class="marketing-img" src="../img/1366692755_search.png" width="128" height="128" />
@@ -38,7 +44,7 @@
               <h2>3. Track class performance</h2>
               asdfjasdhflkjah asdfalskdjfhalsd lkjhqewrlkjhasdlkjh</div>
           </div>
-          
+          -->
 <div class="container">
         <div class="marketing">
             <h1>For Students</h1>
