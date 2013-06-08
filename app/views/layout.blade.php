@@ -38,6 +38,8 @@
 @yield('content')
 
 <script src="bootstrap/js/bootstrap.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
 
 </body>
 </html>
