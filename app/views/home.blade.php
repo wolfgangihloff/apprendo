@@ -14,7 +14,7 @@
   </div>
 </form>
 
-<p><img src="img/trend.png" width="25" height="25" /> Trending: <a href="apps/">Animal quiz game</a>, <a href="apps/">Math quiz</a>, <a href="apps/">Get to know the world</a></p> 
+<p><img src="img/trend.png" width="25" height="25" /> Trending: <a href="apps/">Animal quiz game</a>, <a href="apps/">Spelling bee</a>, <a href="apps/">Get to know the world</a></p> 
 
 <p>Interactive e-learning marketplace with analytics to track performance.</p>
     <a href="apps/" class="btn2 blue" id="students">Students</a>
