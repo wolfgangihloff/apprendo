@@ -28,7 +28,7 @@
           <li><a href="pricing/">Pricing</a></li>
         </ul>
         <ul class="nav pull-right">
-          <li><a href="#myModal" data-toggle="modal"><i class="icon-home icon-white"></i> Sign in</a></li>
+          <li><a href="/login" data-toggle="modal"><i class="icon-home icon-white"></i> Sign in</a></li>
         </ul>
       </div><!-- /.nav-collapse -->
     </div><!-- /.container -->

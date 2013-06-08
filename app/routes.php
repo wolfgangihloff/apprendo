@@ -38,3 +38,7 @@ Route::get('users', function()
 
     return View::make('users')->with('users', $users);
 });
+
+Route::get('login', function() {
+    return View::make('login');
+});
