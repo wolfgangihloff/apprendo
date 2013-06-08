@@ -16,21 +16,29 @@ Route::get('/', function()
 	return View::make('home');
 });
 
+Route::get('home', function()
+{
+    return View::make('home');
+});
+
 Route::get('apps', function()
 {
     return View::make('apps');
 });
 
-Route::get('games', function()
-{
-    $games = Game::all();
+Route::get('games', 'GameController@action_games');
+Route::post('games', 'GameController@action_games');
 
-    return View::make('games')->with('games', $games);
-});
+
+
 
 Route::get('users', function()
 {
     $users = User::all();
 
     return View::make('users')->with('users', $users);
+});
+
+Route::get('login', function() {
+    return View::make('login');
 });

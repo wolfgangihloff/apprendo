@@ -33,9 +33,11 @@ App::after(function($request, $response)
 |
 */
 
-Route::filter('auth', function()
+Route::filter('guest', function()
 {
-	if (Auth::guest()) return Redirect::guest('login');
+    if (Auth::check())
+        return Redirect::route('home')
+            ->with('flash_notice', 'You are already logged in!');
 });
 
 
