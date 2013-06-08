@@ -13,10 +13,10 @@ $fail3 = rand (1 ,19 );
 while($solution == $fail1 ){
     $fail1= rand (1 ,19 );
 }
-while($solution == $fail2){
+while($solution == $fail2 OR $fail1 == $fail2){
     $fail2= rand (1 ,19 );
 }
-while($solution == $fail3){
+while($solution == $fail3 OR $fail1 == $fail3 OR $fail3 == $fail2){
     $fail3= rand (1 ,19 );
 }
 
