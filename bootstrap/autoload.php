@@ -51,7 +51,7 @@ Patchwork\Utf8\Bootup::initMbstring();
 |--------------------------------------------------------------------------
 |
 | We register an auto-loader "behind" the Composer loader that can load
-| model classes on the fly, even if the autoload files have not been
+| models classes on the fly, even if the autoload files have not been
 | regenerated for the application. We'll add it to the stack here.
 |
 */

@@ -21,13 +21,16 @@ Route::get('apps', function()
     return View::make('apps');
 });
 
-Route::get('apps_auto_quiz', function()
+Route::get('games', function()
 {
-    return View::make('apps_auto_quiz');
+    $games = Game::all();
+
+    return View::make('games')->with('games', $games);
 });
 
 Route::get('users', function()
 {
-    return View::make('users');
+    $users = User::all();
 
+    return View::make('users')->with('users', $users);
 });
