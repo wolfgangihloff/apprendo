@@ -65,7 +65,7 @@
 
 
 <h1>Featured Apps</h1>
-    <p class="marketing-byline">Wanna share your quiz, test, games??, <a href="http://builtwithbootstrap.tumblr.com/" target="_blank">Share your stuff here</a> or <a href="./getting-started.html#examples">browse what others have shared</a></p>
+    <p class="marketing-byline">Wanna share your quiz, test, games? <a href="http://builtwithbootstrap.tumblr.com/" target="_blank">Share your stuff here</a> or <a href="./getting-started.html#examples">browse what others have shared</a></p>
     
 	<div class="row-fluid">
       <ul class="thumbnails example-sites">
@@ -144,6 +144,8 @@
 
   </div>
 </div>
+<br />
+<br />
 <!-- End Hero Unit -->
 
 <!-- Modal -->
