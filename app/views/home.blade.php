@@ -90,30 +90,33 @@
           </div>
     </div>
 <hr class="soften">
-
+<h1>See what it's all about</h1>
+<div class="row-fluid" align="center">
+   <iframe width="560" height="315" src=      "http://www.youtube.com/embed/82yVU1gLkIs" frameborder="0" allowfullscreen></iframe>
+</div>
 <h1>Featured Apps</h1>
     <p class="marketing-byline">Wanna share your quiz, test, games with other teachers? <a href="http://builtwithbootstrap.tumblr.com/" target="_blank">Share your stuff here</a> or <a href="./getting-started.html#examples">browse what others have shared</a></p>
     
 	<div class="row-fluid">
       <ul class="thumbnails example-sites">
         <li class="span3">
-          <a class="thumbnail" href="http://soundready.fm/" target="_blank">
+          <a class="thumbnail" href="apps/" target="_blank">
           <img src="img/game1.png">
           </a>
         <a href="#">Whatever game uploaded by user1</a></li>
         <li class="span3">
-          <a class="thumbnail" href="img/game2.png" target="_blank">
+          <a class="thumbnail" href="apps/" target="_blank">
           <img src="img/game2.png">
           </a>
         <a href="#">Whatever quiz</a></li>
         <li class="span3">
-          <a class="thumbnail" href="http://www.gathercontent.com/" target="_blank">
+          <a class="thumbnail" href="apps/" target="_blank">
           <img src="img/game3.png">
           </a>
           <a href="#">Whatever game</a>
         </li>
         <li class="span3">
-          <a class="thumbnail" href="http://www.jshint.com/" target="_blank">
+          <a class="thumbnail" href="apps/" target="_blank">
           <img src="img/game4.png">
           </a>
           <a href="#">Whatever game</a>
@@ -123,22 +126,22 @@
      <div class="row-fluid">
       <ul class="thumbnails example-sites">
         <li class="span3">
-          <a class="thumbnail" href="http://soundready.fm/" target="_blank">
+          <a class="thumbnail" href="apps/" target="_blank">
           <img src="img/game5.png">
           </a>
         contact</li>
         <li class="span3">
-          <a class="thumbnail" href="http://kippt.com/" target="_blank">
+          <a class="thumbnail" href="apps/" target="_blank">
           <img src="img/game6.png">
           </a>
         </li>
         <li class="span3">
-          <a class="thumbnail" href="http://www.gathercontent.com/" target="_blank">
+          <a class="thumbnail" href="apps/" target="_blank">
           <img src="img/game7.png">
           </a>
         </li>
         <li class="span3">
-          <a class="thumbnail" href="http://www.jshint.com/" target="_blank">
+          <a class="thumbnail" href="apps/" target="_blank">
           <img src="img/game8.png">
           </a>
         </li>
