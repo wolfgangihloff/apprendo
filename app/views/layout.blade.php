@@ -19,10 +19,9 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </a>
-      <a class="brand" href="home/"><img src="img/logo_long_web.png" width="215" height="40"/></a>
+      <a class="brand" href="home/"><img src="img/logo_long.png" width="200" height="35"/></a>
       <div class="nav-collapse">
         <ul class="nav ">
-          <li><a href="home/"> Home</a></li>
           <li><a href="students/">Students</a></li>
           <li><a href="teachers/">Teachers</a></li>
           <li><a href="help/">How it works</a></li>
