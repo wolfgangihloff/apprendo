@@ -26,12 +26,11 @@ Route::get('apps', function()
     return View::make('apps');
 });
 
-Route::get('games', function()
-{
-    $games = Game::all();
+Route::get('games', 'GameController@action_games');
+Route::post('games', 'GameController@action_games');
 
-    return View::make('games')->with('games', $games);
-});
+
+
 
 Route::get('users', function()
 {
