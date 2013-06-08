@@ -59,13 +59,13 @@
               asdfjasdhflkjah asdfalskdjfhalsd lkjhqewrlkjhasdlkjh</div>
           </div>
         <br />
-        <p align="center">For detailed info <a href="#">click here.</a></p>
+        <p align="center">For detailed info <a href="howitworks/">click here.</a></p>
 
 <hr class="soften">
 
 
 <h1>Featured Apps</h1>
-    <p class="marketing-byline">Wanna share your quiz, test, games? <a href="http://builtwithbootstrap.tumblr.com/" target="_blank">Share your stuff here</a> or <a href="./getting-started.html#examples">browse what others have shared</a></p>
+    <p class="marketing-byline">Wanna share your quiz, test, games with other teachers? <a href="http://builtwithbootstrap.tumblr.com/" target="_blank">Share your stuff here</a> or <a href="./getting-started.html#examples">browse what others have shared</a></p>
     
 	<div class="row-fluid">
       <ul class="thumbnails example-sites">
