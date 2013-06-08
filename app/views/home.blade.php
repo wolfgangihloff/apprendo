@@ -16,7 +16,7 @@
 
 <p><img src="img/trend.png" width="25" height="25" /> Trending: <a href="apps/">Animal quiz game</a>, <a href="apps/">Spelling bee</a>, <a href="apps/">Get to know the world</a></p> 
 
-<p>Interactive e-learning marketplace with analytics to track performance.</p>
+<p>Interactive e-learning marketplace with analytics tools to track performance.</p>
     <a href="apps/" class="btn2 blue" id="students">Students</a>
     <a href="analytics/" class="btn2 red" id="teachers">Teachers</a>
   </div>
@@ -25,10 +25,10 @@
 <div class="container">
         <div class="marketing">
             <h1>Learn by doing. Track their progress.</h1>
-            <p class="marketing-byline">This is basically how it works in 3 simple steps.</p>
+            <p class="marketing-byline">This is basically how it works.</p>
             <div class="row-fluid" align="center">
             	<div class="span12">
-                	<img src="img/homepage-product-screenshot.png" />
+               	  <img src="img/homepage-product-screenshot.png" />
                 </div>
             </div>
             <hr class="soften">
@@ -71,7 +71,7 @@
                     <li><img src="img/ico_path.png" width="30" height="30" /> Automated tools to ease class organization, achieving a higher efficiency while reducing workload.</li>
                   </ul>
                 </div>
-           	</div>
+       	  </div>
             <div class="row-fluid" align="center">
               <div class="span12">
                   <h2>Are you a developer?</h2> 
@@ -87,8 +87,8 @@
                      <input type="text" name="email" id="email" />
                      <a href="#">Submit </a>
                 </div>
-              </div>
-            </div>
+          </div>
+    </div>
 <hr class="soften">
 
 <h1>Featured Apps</h1>
@@ -119,7 +119,7 @@
           <a href="#">Whatever game</a>
         </li>
       </ul>
-     </div>
+    </div>
      <div class="row-fluid">
       <ul class="thumbnails example-sites">
         <li class="span3">
