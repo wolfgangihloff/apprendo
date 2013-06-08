@@ -9,7 +9,8 @@
 @endif
 
 
-{{ Form::open() }}
+{{ Form::open(array('login', 'POST')) }}
+
 <!-- username field -->
 <p>
     {{ Form::label('username', 'Username') }}<br/>
