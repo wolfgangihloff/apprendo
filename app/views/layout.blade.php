@@ -28,8 +28,13 @@
           <li><a href="pricing/">Pricing</a></li>
         </ul>
         <ul class="nav pull-right">
-          <li><a href="/login" data-toggle="modal"><i class="icon-home icon-white"></i> Sign in</a></li>
+            @if(Auth::check())
+            <li>{{ Auth::user()->username }}</li>
+            @else
+            <li><a href="/login" data-toggle="modal"><i class="icon-home icon-white"></i> Sign in</a></li>
+            @endif
         </ul>
+
       </div><!-- /.nav-collapse -->
     </div><!-- /.container -->
   </div><!-- /.navbar-inner -->

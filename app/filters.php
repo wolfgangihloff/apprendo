@@ -46,6 +46,13 @@ Route::filter('auth.basic', function()
 	return Auth::basic();
 });
 
+Route::filter('auth', function()
+{
+    if (Auth::guest())
+        return Redirect::route('login')
+            ->with('flash_error', 'You must be logged in to view this page!');
+});
+
 /*
 |--------------------------------------------------------------------------
 | Guest Filter

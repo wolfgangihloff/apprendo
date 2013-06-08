@@ -2,23 +2,16 @@
 
 @section('content')
 <h1>Animal Quiz Game</h1>
-{{
-  $name = Input::get('answer', 'notset');
-  $right_answer = Input::get('name')
-}}
 
-@foreach($games as $game)
-<p><img src="{{ $game->picture }}" width="300px" height="auto"><img src="/images/cat.jpg" width="300px" height="auto"></p>
-@endforeach
+<?php
+$solution = rand (1 ,19 );
+$fail = rand (1 ,20 );
+$fail++;
 
-{{
-   Form::open(array('url' => 'games'));
-   echo Form::label('answer', 'Put in your answer');
-   echo Form::text('answer');
-   echo Form::submit('Submit');
-}}
-{{ Form::close() }}
-
-
+$picture = DB::table('games')->where('id', $solution)->pluck('picture');
+$picture_word = DB::table('games')->where('id', $solution)->pluck('name');
+$picture_fail = DB::table('games')->where('id', $fail)->pluck('picture'); ?>
+<p>{{ $picture_word }}</p>
+<p><a href="games/"><img src="{{ $picture }}"></a><a href="games/"><img src="{{ $picture_fail }}"></a></p>
 
 @stop

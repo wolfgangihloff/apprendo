@@ -16,7 +16,7 @@
 <p><img src="img/trend.png" width="25" height="25" /> Trending: <span id="suggest"></span>English pics game, Maths quiz</p> 
 
 <p>Interactive e-learning marketplace with analytics to track performance.</p>
-    <a href="#" class="btn btn-large btn-success"><i class="icon-user icon-white"></i> Students</a>
+    <a href="apps/" class="btn btn-large btn-success"><i class="icon-user icon-white"></i> Students</a>
     <a href="../howitworks.php" class="btn btn-large btn-warning"><i class="icon-eye-open icon-white"></i> Teachers</a>
   </div>
 </div><div class="container">

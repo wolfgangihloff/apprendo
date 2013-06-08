@@ -1,21 +1,37 @@
 <?php
 
 class GameController extends BaseController {
-    public function action_games()
-    {
-        $name = Input::get('answer');
-        $right_answer = Input::get('$game->name');
+    public function action_games(){
 
-        if ($name == $right_answer) {
-            // give point to user
-        } else {
-            // remove points from user
+        if (isset($gamecounter)){
+            // none
+        }else{
+            $gamecounter=0;
+            $gamestatus=1;
         }
 
+        $user = Auth::user()->id;
+        $name = Input::get('answer');
+        $right_answer = Input::get('right-answer');
+
+        if ($name == $right_answer) {
+            DB::table('gamescores')->insert(
+                array('game_id' => '1', 'user_id' => $user, 'score' => 1)
+            );
+        } else {
+            DB::table('gamescores')->insert(
+                array('game_id' => '1', 'user_id' => $user, 'score' => 2)
+            );
+        }
+        $gamecounter++;
+        $gamestatus++;
         $games = Game::all();
 
 
-        return View::make('games')->with('games', $games);
+        return View::make('games')
+            ->with('games', $games)
+            ->with('gamecounter', $gamecounter)
+            ->with('gamestatus', $gamestatus);
     }
 
 }
