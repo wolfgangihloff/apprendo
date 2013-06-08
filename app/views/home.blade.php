@@ -16,8 +16,8 @@
 <p><img src="img/trend.png" width="25" height="25" /> Trending: <span id="suggest"></span>English pics game, Maths quiz</p> 
 
 <p>Interactive e-learning marketplace with analytics to track performance.</p>
-    <a href="apps/" class="btn btn-large btn-success"><i class="icon-user icon-white"></i> Students</a>
-    <a href="../howitworks.php" class="btn btn-large btn-warning"><i class="icon-eye-open icon-white"></i> Teachers</a>
+    <a href="#" class="btn2 blue" id="students">Students</a>
+    <a href="analytics/" class="btn2 red" id="teachers">Teachers</a>
   </div>
 </div><div class="container">
         <div class="marketing">
@@ -59,35 +59,35 @@
               asdfjasdhflkjah asdfalskdjfhalsd lkjhqewrlkjhasdlkjh</div>
           </div>
         <br />
-        <p align="center">For detailed info <a href="#">click here.</a></p>
+        <p align="center">For detailed info <a href="howitworks/">click here.</a></p>
 
 <hr class="soften">
 
 
 <h1>Featured Apps</h1>
-    <p class="marketing-byline">Wanna share your quiz, test, games? <a href="http://builtwithbootstrap.tumblr.com/" target="_blank">Share your stuff here</a> or <a href="./getting-started.html#examples">browse what others have shared</a></p>
+    <p class="marketing-byline">Wanna share your quiz, test, games with other teachers? <a href="http://builtwithbootstrap.tumblr.com/" target="_blank">Share your stuff here</a> or <a href="./getting-started.html#examples">browse what others have shared</a></p>
     
 	<div class="row-fluid">
       <ul class="thumbnails example-sites">
         <li class="span3">
           <a class="thumbnail" href="http://soundready.fm/" target="_blank">
-          <img src="http://twitter.github.io/bootstrap/assets/img/example-sites/soundready.png" alt="SoundReady.fm">
+          <img src="img/game1.png">
           </a>
-        <a href="#">Whatever game</a></li>
+        <a href="#">Whatever game uploaded by user1</a></li>
         <li class="span3">
-          <a class="thumbnail" href="http://kippt.com/" target="_blank">
-          <img src="http://twitter.github.io/bootstrap/assets/img/example-sites/kippt.png" alt="Kippt">
+          <a class="thumbnail" href="img/game2.png" target="_blank">
+          <img src="img/game2.png">
           </a>
         <a href="#">Whatever quiz</a></li>
         <li class="span3">
           <a class="thumbnail" href="http://www.gathercontent.com/" target="_blank">
-          <img src="http://twitter.github.io/bootstrap/assets/img/example-sites/gathercontent.png" alt="Gather Content">
+          <img src="img/game3.png">
           </a>
           <a href="#">Whatever game</a>
         </li>
         <li class="span3">
           <a class="thumbnail" href="http://www.jshint.com/" target="_blank">
-          <img src="http://twitter.github.io/bootstrap/assets/img/example-sites/jshint.png" alt="JS Hint">
+          <img src="img/game4.png">
           </a>
           <a href="#">Whatever game</a>
         </li>
@@ -97,46 +97,22 @@
       <ul class="thumbnails example-sites">
         <li class="span3">
           <a class="thumbnail" href="http://soundready.fm/" target="_blank">
-          <img src="http://twitter.github.io/bootstrap/assets/img/example-sites/soundready.png" alt="SoundReady.fm">
+          <img src="img/game5.png">
           </a>
         contact</li>
         <li class="span3">
           <a class="thumbnail" href="http://kippt.com/" target="_blank">
-          <img src="http://twitter.github.io/bootstrap/assets/img/example-sites/kippt.png" alt="Kippt">
+          <img src="img/game6.png">
           </a>
         </li>
         <li class="span3">
           <a class="thumbnail" href="http://www.gathercontent.com/" target="_blank">
-          <img src="http://twitter.github.io/bootstrap/assets/img/example-sites/gathercontent.png" alt="Gather Content">
+          <img src="img/game7.png">
           </a>
         </li>
         <li class="span3">
           <a class="thumbnail" href="http://www.jshint.com/" target="_blank">
-          <img src="http://twitter.github.io/bootstrap/assets/img/example-sites/jshint.png" alt="JS Hint">
-          </a>
-        </li>
-      </ul>
-     </div>
-     <div class="row-fluid">
-      <ul class="thumbnails example-sites">
-        <li class="span3">
-          <a class="thumbnail" href="http://soundready.fm/" target="_blank">
-          <img src="http://twitter.github.io/bootstrap/assets/img/example-sites/soundready.png" alt="SoundReady.fm">
-          </a>
-        contact</li>
-        <li class="span3">
-          <a class="thumbnail" href="http://kippt.com/" target="_blank">
-          <img src="http://twitter.github.io/bootstrap/assets/img/example-sites/kippt.png" alt="Kippt">
-          </a>
-        </li>
-        <li class="span3">
-          <a class="thumbnail" href="http://www.gathercontent.com/" target="_blank">
-          <img src="http://twitter.github.io/bootstrap/assets/img/example-sites/gathercontent.png" alt="Gather Content">
-          </a>
-        </li>
-        <li class="span3">
-          <a class="thumbnail" href="http://www.jshint.com/" target="_blank">
-          <img src="http://twitter.github.io/bootstrap/assets/img/example-sites/jshint.png" alt="JS Hint">
+          <img src="img/game8.png">
           </a>
         </li>
       </ul>
