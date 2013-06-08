@@ -1,10 +1,6 @@
 @extends('layout')
 
 @section('content')
-<script>
-    onclick="$.cookie('clicks', $.cookie('clicks') + 1);"
-</script>
-
 <?php
 $solution = rand (1 ,19 );
 $fail1 = rand (1 ,19 );
@@ -25,7 +21,14 @@ $picture_word = DB::table('games')->where('id', $solution)->pluck('name');
 $picture_fail1 = DB::table('games')->where('id', $fail1)->pluck('picture');
 $picture_fail2 = DB::table('games')->where('id', $fail2)->pluck('picture');
 $picture_fail3 = DB::table('games')->where('id', $fail3)->pluck('picture');
+
+$picture_elements = array($picture, $picture_fail1, $picture_fail2, $picture_fail3);
+shuffle($picture_elements);
+
 ?>
+
+
+
 <div class="container text-center">
 <h1>Animal Quiz</h1>
     <br>
@@ -35,18 +38,20 @@ $picture_fail3 = DB::table('games')->where('id', $fail3)->pluck('picture');
 <br>
 <div>
     <a href="games/">
-        <img class="img-polaroid" src="{{ $picture }}">
+        <img class="img-polaroid" src="{{ $picture_elements[0] }}">
     </a>
     <a href="games/">
-        <img  class="img-polaroid" src="{{ $picture_fail1 }}">
+        <img  class="img-polaroid" src="{{ $picture_elements[1] }}">
     </a>
     <a href="games/">
-        <img  class="img-polaroid" src="{{ $picture_fail2 }}">
+        <img  class="img-polaroid" src="{{ $picture_elements[2]}}">
     </a>
     <a href="games/">
-        <img  class="img-polaroid" src="{{ $picture_fail3 }}">
+        <img  class="img-polaroid" src="{{ $picture_elements[3] }}">
     </a>
 </div>
 </div>
+
+
 
 @stop
