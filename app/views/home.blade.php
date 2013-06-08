@@ -7,7 +7,7 @@
   <div class="container" align="center">
     <h2 style="color:#595959"><img src="img/logo_web.png" width="160" height="100" /></h2>
     <h4>
-      <p>Web-based "appstore" for interactive e-learning contents with analytics tools for teachers.</p></h4>
+      <p>Web-based "appstore" for interactive e-learning contents </p></h4>
       <form class="form-search">
   <div class="input-append">
     <input type="text" id="input"  class="span8" placeholder="e.g. Mathematics games, Physics quiz, Biology, Chemistry" style="background: #fff; border: 3px solid #00B300; height:40px; font-size:25px" autocomplete="off">
@@ -16,7 +16,7 @@
 
 <p><img src="img/trend.png" width="25" height="25" /> Trending: <a href="apps/">Animal quiz game</a>, <a href="apps/">Spelling bee</a>, <a href="apps/">Get to know the world</a></p> 
 
-<p>An open platform for distributing interactive e-learning contents</p>
+<p>An open platform for distributing interactive e-learning contents with analytics tools to track students' performance.</p>
     <a href="apps/" class="btn2 blue" id="students">Students</a>
     <a href="analytics/" class="btn2 red" id="teachers">Teachers</a>
   </div>
