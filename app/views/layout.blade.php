@@ -8,9 +8,6 @@
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />	
     <link href="bootstrap/css/styles.css" rel="stylesheet" type="text/css" />
-    <script src="js/jquery-2.0.2.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="bootstrap/js/chart.js"></script>
 
 
 </head>
@@ -33,10 +30,10 @@
           <li><a href="#">Pricing</a></li>
         </ul>
         <ul class="nav pull-right">
-            @if(Auth::check())
-            <li>{{ Auth::user()->username }}</li>
+            @if( Auth::guest() )
+            <li>{{ HTML::link('login', 'Login') }}</li>
             @else
-            <li><a href="/login" data-toggle="modal"><i class="icon-home icon-white"></i> Sign in</a></li>
+            <li>{{ HTML::link('logout', 'Logout') }}</li>
             @endif
         </ul>
 
@@ -60,8 +57,13 @@
 
 @yield('content')
 
-<script src="bootstrap/js/bootstrap.js"></script>
+<script src="js/jquery-2.0.2.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/js/chart.js"></script>
+
+<!--<script src="bootstrap/js/bootstrap.js"></script>
 <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+-->
 
 <footer class="footer">
       <div class="container">

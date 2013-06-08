@@ -6,7 +6,7 @@
 	<div class="row">
    	  <div class="marketing">
             <hgroup>
-                   <h1>Hello Guzman!</h1>
+                   <h1>{{ Auth::user()->username}}</h1>
                    <h2>This is your class performance for Group Year 7</h2>
             </hgroup>
         	<a href="#"><i class="icon-user"></i>Add Student</a> <a href="#"> <i class="icon-th-list"></i>Create New Group </a>
