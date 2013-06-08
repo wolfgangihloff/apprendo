@@ -1,7 +1,13 @@
 @extends('layout')
 
 @section('content')
+<div class="top">
+
+</div>
 <div class="container">
+	<div class="logo">
+		<img src="img/logo_web.png" width="160" height="100" />
+   	</div>
     {{ Form::open(array('url' => 'login', 'class' => 'form-horizontal')) }}
 
     <!-- Name -->
@@ -37,7 +43,7 @@
     <!-- Login button -->
     <div class="control-group">
         <div class="controls">
-            {{ Form::submit('Login', array('class' => 'btn')) }}
+            {{ Form::submit('Login', array('class' => 'btn btn-success')) }}
         </div>
     </div>
 

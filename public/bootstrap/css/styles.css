@@ -17,6 +17,14 @@
 
 #trending:hover {text-decoration:underline}
 
+
+
+.logo {
+	padding: 30px;
+	padding-left: 100px;
+	margin-left: 200 px;
+}
+
 #midcontainer2 {
   padding: 10px;
   margin-bottom: 30px;
