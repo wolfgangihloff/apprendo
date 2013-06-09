@@ -28,7 +28,7 @@
           <li><a href="analytics/">Teachers</a></li>
           <li><a href="#">Share</a></li>
           <li><a href="apps/">Browse</a></li>
-          <li><a href="create/">Create</a></li>
+          <li><a href="#">Create</a></li>
           <li><a href="#">Pricing</a></li>
         </ul>
         <ul class="nav pull-right">
